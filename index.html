@@ -170,4 +170,41 @@
     }
 
     .member-share {
-      font-size: 0.85
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .pay-status {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+    }
+
+    .pay-status.paid {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    .pay-status.unpaid {
+      background: #f8d7da;
+      color: #721c24;
+    }
+
+    /* 10期核對表格 */
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    th, td {
+      padding: 10px 8px;
+      border-bottom: 1
